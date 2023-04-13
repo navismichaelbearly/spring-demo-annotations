@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope("singleton")
+//@Scope("prototype")
 public class TennisCoach implements Coach {
 	
 	@Value("${foo.email}")
